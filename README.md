@@ -2,9 +2,9 @@
 
 This repository provides a shell script to install the Ollama CLI (if not already installed) and download the DeepSeek:8b large language model (LLM) on a Linux system.
 
-## What is DeepSeek:8b?
+## What is deepseek-r1:8b?
 
-DeepSeek:8b is a large language model with 8 billion parameters, designed for natural language understanding and generation. It runs locally via the Ollama platform, giving you offline and private access to powerful AI.
+DeepSeek:8b is a large language model with 8 billion parameters (5.2GB), designed for natural language understanding and generation. It runs locally via the Ollama platform, giving you offline and private access to powerful AI.
 
 ## What is Ollama?
 
@@ -35,11 +35,11 @@ chmod +x install.sh
         
    For Bash:
    ```bash
-   echo "alias deepseek='ollama run deepseek:8b'" >> ~/.bashrc && source ~/.bashrc
+   echo "alias deepseek='ollama run deepseek-r1:8b'" >> ~/.bashrc && source ~/.bashrc
    ```
    For Zsh:
    ```bash
-   echo "alias deepseek='ollama run deepseek:8b'" >> ~/.zshrc && source ~/.zshrc
+   echo "alias deepseek='ollama run deepseek-r1:8b'" >> ~/.zshrc && source ~/.zshrc
    ```
 
 Now you can simply type deepseek in your terminal to interact with the DeepSeek:8b model.
