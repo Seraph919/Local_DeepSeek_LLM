@@ -20,30 +20,31 @@ Ollama is a command-line interface (CLI) tool that manages and runs large langua
 ### How to run
 
 1. Download the script:
-
-        curl -O https://github.com/Seraph919/Local_DeepSeek_LLM/install.sh
-
+```bash
+curl -O https://github.com/Seraph919/Local_DeepSeek_LLM/install.sh
+```
 2. Make the script executable:
-
-        chmod +x install.sh
-
+```bash
+chmod +x install.sh
+```
 3. Run the script:
-
-        ./install.sh
-
-4. (Optional) Add a convenient alias deepseek to quickly run the model:
-
-  For Bash:
-
-         echo "alias deepseek='ollama run deepseek:8b'" >> ~/.bashrc && source ~/.bashrc
-
-  For Zsh:
-
-        echo "alias deepseek='ollama run deepseek:8b'" >> ~/.zshrc && source ~/.zshrc
+```bash
+./install.sh
+```
+5. (Optional) Add a convenient alias deepseek to quickly run the model:
+        
+   For Bash:
+   ```bash
+   echo "alias deepseek='ollama run deepseek:8b'" >> ~/.bashrc && source ~/.bashrc
+   ```
+   For Zsh:
+   ```bash
+   echo "alias deepseek='ollama run deepseek:8b'" >> ~/.zshrc && source ~/.zshrc
+   ```
 
 Now you can simply type deepseek in your terminal to interact with the DeepSeek:8b model.
 
 Credits:
 
-    Ollama team for providing the platform and CLI tool: https://ollama.com
-    Developers and researchers behind the DeepSeek:8b model.
+Ollama team for providing the platform and CLI tool: https://ollama.com
+And Developers and researchers behind the DeepSeek:8b model.
