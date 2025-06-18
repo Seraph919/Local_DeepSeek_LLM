@@ -1,10 +1,10 @@
-# DeepSeek:8b Model Downloader for Linux
+# Deepseek-r1:8b Model Downloader for Linux
 
 This repository provides a shell script to install the Ollama CLI (if not already installed) and download the DeepSeek:8b large language model (LLM) on a Linux system.
 
-## What is deepseek-r1:8b?
+## What is Deepseek-r1:8b?
 
-DeepSeek:8b is a large language model with 8 billion parameters (5.2GB), designed for natural language understanding and generation. It runs locally via the Ollama platform, giving you offline and private access to powerful AI.
+Deepseek-r1:8b is a large language model with 8 billion parameters (5.2GB), designed for natural language understanding and generation. It runs locally via the Ollama platform, giving you offline and private access to powerful AI.
 
 ## What is Ollama?
 
