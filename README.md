@@ -21,7 +21,7 @@ Ollama is a command-line interface (CLI) tool that manages and runs large langua
 
 1. Download the script:
 ```bash
-curl -O https://github.com/Seraph919/Local_DeepSeek_LLM/install.sh
+curl -O https://raw.githubusercontent.com/Seraph919/Local_DeepSeek_LLM/main/install.sh
 ```
 2. Make the script executable:
 ```bash
