@@ -18,10 +18,9 @@ else
 fi
 
 echo "Downloading DeepSeek:8b model..."
-ollama pull deepseek:8b
-
+ollama pull deepseek-r1:8b
 if [ $? -eq 0 ]; then
-    echo "Model deepseek:8b downloaded successfully."
+    echo "Model deepseek-r1:8b downloaded successfully."
 else
     echo "Failed to download the model."
     exit 1
