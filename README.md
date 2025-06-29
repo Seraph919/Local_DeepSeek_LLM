@@ -9,7 +9,9 @@ Deepseek-r1:8b is a large language model with 8 billion parameters (5.2GB), desi
 ## What is Ollama?
 
 Ollama is a command-line interface (CLI) tool that manages and runs large language models like DeepSeek on your computer, enabling easy local use without relying on cloud services.
+## Why is it useful
 
+This allows you to run it offline without any internet connection. By keeping everything on your machine, it ensures maximum privacy🔒, data security, and independence from external servers—ideal for secure, isolated, or low-connectivity environments🌐❌.
 ## Usage
 
 ### Prerequisites
@@ -41,8 +43,9 @@ chmod +x install.sh
    ```bash
    echo "alias deepseek='ollama run deepseek-r1:8b'" >> ~/.zshrc && source ~/.zshrc
    ```
-
 Now you can simply type deepseek in your terminal to interact with the DeepSeek:8b model.
+
+Note: A GPU is recommended for a smoother and faster experience.
 
 Credits:
 
